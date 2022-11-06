@@ -1,0 +1,12 @@
+.req {
+    color: red;
+}
+
+input:required {
+  border-color: green;
+  border-width: 1px;
+}
+
+input:required:invalid {
+  border-color: red;
+}
